@@ -25,11 +25,7 @@ int main() {
 
     ads7128_channel_cfg_gpio(AN_CH1, GPIO_OUTPUT);
     ads7128_channel_cfg_gpio(AN_CH2, GPIO_INPUT);
-
-    /******Setup inetrnal ADC ******/
-    //adc_init();
-    //adc_gpio_init(26);
-    
+  
 
     sleep_ms(250);
 
